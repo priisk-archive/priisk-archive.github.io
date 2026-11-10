@@ -21,10 +21,10 @@ body .header {
     margin: 0 !important;
     padding: 0 !important;
     gap: 8px !important;
+}
    /* Делаем логотип оранжевым ТОЛЬКО на главной странице (где есть класс body.list) */
 body.list .header .logo a {
     color: var(--accent-text) !important;
-}
 }
 
 .header .logo a {
